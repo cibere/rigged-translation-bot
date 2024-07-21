@@ -1,3 +1,8 @@
+"""
+All credits for this go to Danny
+https://github.com/Rapptz/RoboDanny/blob/rewrite/cogs/utils/translator.py
+"""
+
 from __future__ import annotations
 
 from typing import TYPE_CHECKING, NamedTuple, TypedDict
