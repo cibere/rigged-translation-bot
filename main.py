@@ -18,6 +18,8 @@ bot = RiggedTranslator(commands.when_mentioned, intents=intents)
 async def on_message(msg: discord.Message) -> None:
     if msg.author.id == bot.user.id:
         return print("Thats me")
+    if not msg.content:
+        return print("No content")
 
     embeds = []
     base_embed = discord.Embed()
